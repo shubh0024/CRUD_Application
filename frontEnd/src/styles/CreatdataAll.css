@@ -1,0 +1,55 @@
+.container {
+    margin-top: 50px;
+  }
+  
+
+ .data-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #751ec6;
+ } 
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  .table tr:nth-child(odd) {
+    background-color: #d21414; /* Light gray color for odd rows */
+  }
+  .table tr:hover {
+    background-color: #0b4ccf; /* Light gray color on hover */
+  }
+  
+  
+  .table-hover tbody tr:hover {
+    background-color: #000000;
+  }
+  
+  .bg-light {
+    background-color: #236bb4 !important;
+  }
+  
+  .form-control {
+    border-radius: 10px;
+  }
+  
+  .btn {
+    border-radius: 5px;
+  }
+  
+  h1 {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  h2 {
+    color: #17a2b8;
+  }
+  
+  h2, h1 {
+    text-align: center;
+  }
+  
